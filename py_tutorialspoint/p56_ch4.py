@@ -76,8 +76,12 @@ squares = []
 for x in range(10):
     squares.append(x**2)
 
-print "squares using for loop & range() function : ", squares
+print "squares using for loop & range() function :-> ", squares
 
 squares =[]
 squares = list(map(lambda x: x**2, range(15)))
-print squares
+print "squares using list(map(lambda x: x**2, range(15)))  :-> ", squares
+
+squares = []
+squares =[x**2 for x in range(6)]
+print "squares using [x**2 for x in range(6)] :-> ", squares

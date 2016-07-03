@@ -44,4 +44,8 @@ str = 'this is string cap '
 print str.lstrip()
 print str.capitalize()
 
-print "page 145 done"
+pstr = "this is string example...wow!!! this is really string"
+print pstr.replace("is", "was")
+print pstr.replace("is", "was", 2)
+
+print "string completed"

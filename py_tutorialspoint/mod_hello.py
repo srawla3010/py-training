@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+'This is test module for learning'
+
 def print_func(par):
     print "Hello From mod_hello module : ", par
     return

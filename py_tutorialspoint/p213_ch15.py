@@ -37,3 +37,11 @@ print mod_hello.__file__
 
 print "local functions :- \n", locals().keys(), "\n"
 print "global functions :- \n", globals().keys()
+
+
+print "PYTHON PACKAGES"
+import phone
+
+phone.pots()
+phone.isdn()
+phone.g3()

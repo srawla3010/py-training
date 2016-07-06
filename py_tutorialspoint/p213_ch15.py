@@ -45,3 +45,5 @@ import phone
 phone.pots()
 phone.isdn()
 phone.g3()
+
+print "P218 -> ch 15 Good Bye"

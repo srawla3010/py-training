@@ -10,4 +10,6 @@ def CeltoFahren(Temp):
 
 print CeltoFahren(273)
 print int(CeltoFahren(505.78))
-print CeltoFahren(-5)
+print CeltoFahren(0)
+
+print "Assertion Done !!!"

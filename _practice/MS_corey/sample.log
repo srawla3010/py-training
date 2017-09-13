@@ -1,0 +1,27 @@
+DEBUG:2017-09-12 15:53:30,496:__main__:Add: 20 + 10 = 30
+DEBUG:2017-09-12 15:53:30,496:__main__:Sub: 20 - 10 = 10
+DEBUG:2017-09-12 15:53:30,496:__main__:Mul: 20 * 10 = 200
+DEBUG:2017-09-12 15:53:30,496:__main__:Div: 20 / 10 = 2
+DEBUG:2017-09-12 15:53:38,839:__main__:Add: 20 + 0 = 20
+DEBUG:2017-09-12 15:53:38,839:__main__:Sub: 20 - 0 = 20
+DEBUG:2017-09-12 15:53:38,839:__main__:Mul: 20 * 0 = 0
+ERROR:2017-09-12 15:53:38,839:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ssunder/Downloads/APIs/twitter/_practice/logging_advance.py", line 33, in divide
+    result = x / y
+ZeroDivisionError: integer division or modulo by zero
+DEBUG:2017-09-12 15:53:38,839:__main__:Div: 20 / 0 = None
+DEBUG:2017-09-12 15:54:10,893:__main__:Add: 20 + 0 = 20
+DEBUG:2017-09-12 15:54:10,893:__main__:Sub: 20 - 0 = 20
+DEBUG:2017-09-12 15:54:10,893:__main__:Mul: 20 * 0 = 0
+ERROR:2017-09-12 15:54:10,893:__main__:Tried to divide by zero
+DEBUG:2017-09-12 15:54:10,893:__main__:Div: 20 / 0 = None
+DEBUG:2017-09-12 15:56:27,425:__main__:Add: 20 + 0 = 20
+DEBUG:2017-09-12 15:56:27,425:__main__:Sub: 20 - 0 = 20
+DEBUG:2017-09-12 15:56:27,426:__main__:Mul: 20 * 0 = 0
+ERROR:2017-09-12 15:56:27,426:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/ssunder/Downloads/APIs/twitter/_practice/logging_advance.py", line 37, in divide
+    result = x / y
+ZeroDivisionError: integer division or modulo by zero
+DEBUG:2017-09-12 15:56:27,426:__main__:Div: 20 / 0 = None

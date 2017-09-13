@@ -1,0 +1,8 @@
+{
+    "return": null, 
+    "color": "Yellow", 
+    "price": 10, 
+    "fruit": "Banana", 
+    "expensive": true, 
+    "size": "Long"
+}
